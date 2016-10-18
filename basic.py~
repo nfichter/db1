@@ -1,0 +1,5 @@
+import sqlite3
+
+i = 0;
+while (i < 
+q = "SELECT name,mark,courses.id from courses,peeps where courses.id = 
