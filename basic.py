@@ -25,4 +25,4 @@ for key in d.keys():
     d[key] = rightnow
 
 for key in d.keys():
-    print d[key]
+    print "Name: ",str(d[key][0])," ID: ",d[key][1]," AVG: ",d[key][2]
